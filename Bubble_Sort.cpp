@@ -64,5 +64,5 @@ int main()
 		cout << i + 1 << "回目の変更結果" << endl;
 	}
 
-	delete ptr;
+	delete[] ptr;
 }
